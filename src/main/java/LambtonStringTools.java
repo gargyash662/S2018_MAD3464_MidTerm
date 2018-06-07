@@ -1,23 +1,14 @@
 public class LambtonStringTools {
 
-    public static void main(String[] args)
+    public static Reverse main(String[] args) {
 
 
+        //string reverse
+        Reverse r1 = new Reverse();
+        return r1;
 
-    //string reverse
-    {
-        String string = " Lambton";
-        char[] reverse = string.toCharArray();
-        for (int i = reverse.length-1;i>=0;i--)
-            System.out.print(reverse[i]);
+
     }
-
-
-
-
-
-
-
 }
 
 
