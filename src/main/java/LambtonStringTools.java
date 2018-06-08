@@ -1,3 +1,5 @@
+
+import java.util.Scanner;
 public class LambtonStringTools {
 
     public LambtonStringTools() {
@@ -13,31 +15,41 @@ public class LambtonStringTools {
         return null;
     }
 
-
-    public String decimal(String Q)
-    {
-
-
+/*
+    public void decimal(String Q) {
+        int count = 0;
+        String s = "lamton college 123";
+        String[] split = s.split(" ");
+        for (int i = 0; i < s.length(); i++)
         {
-            int count;
-            String s = "lamton college";
-            String[] split = s.split(" ");
-            for(String str: split)
+            if (Character.isLetter(s[i]))
             {
-                char[] ch = str.toCharArray();   // convert string to char array
-                count = 0;                       // reset count for every new word/string
-                for(char c: ch)                  // iterate over all the characters
-                {
-                    if(Character.isLetter(c))    // Returns true if the character is a Letter
-                    {
-                        count++;                 // increase the count to represent no. of letters
-                    }
-                }
-                System.out.print(count + " ");
-                System.out.print(ch + " ");// print the no.of characters that are letters in a word/string.
+                count++;
+
             }
         }
-
-        return null;
     }
+
+*/
+
+
+    public void convert(String Q)
+    {
+        Scanner in = new Scanner( System.in );
+
+        System.out.println("Enter a binary number: ");
+        String binaryString =in.nextLine();
+
+        System.out.println("Result: "+Integer.parseInt(binaryString,2));
+
+    }
+
+
+
+
+
+
+
+
+
 }
