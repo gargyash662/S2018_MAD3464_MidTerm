@@ -1,17 +1,24 @@
 public class LambtonStringTools {
 
-    public static Reverse main(String[] args) {
+    public LambtonStringTools() {
+    }
+
+    public String reverse(String s) {
+        char r[] = s.toCharArray();
+
+        for (int i = r.length - 1; i >= 0; i--) {
+            System.out.print(r[i]);
+
+        }
+        return null;
+    }
 
 
-        //string reverse
-        Reverse r1 = new Reverse();
-        return r1;
+    public String decimal(String Q)
+    {
 
 
+        
+        return null;
     }
 }
-
-
-
-
-
